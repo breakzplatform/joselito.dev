@@ -655,7 +655,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .post-card-primary-tag {
     margin: 0 0 0.2em;
-    color: var(--blue);
+    color: var(--purple);
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -1087,9 +1087,9 @@ make sure this only happens on large viewports / desktop-ish devices.
 }
 
 .post-full-content a:hover {
-    color: var(--blue);
+    color: var(--purple);
     text-decoration: none;
-    box-shadow: var(--blue) 0 -1px 0 inset;
+    box-shadow: var(--purple) 0 -1px 0 inset;
 }
 
 .post-full-content strong,
@@ -1330,7 +1330,7 @@ Usage (In Ghost editor):
     margin: 0.5em 0;
     padding: 0.4em 1em 0.9em;
     border: 0;
-    color: var(--blue);
+    color: var(--purple);
     font-family: 'Fira Code', Georgia,serif;
     font-size: 3.2rem;
     line-height: 1.35em;
@@ -1377,7 +1377,7 @@ Usage (In Ghost editor):
 }
 
 .footnote-backref {
-    color: var(--blue) !important;
+    color: var(--purple) !important;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none !important;
@@ -1744,10 +1744,10 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color(var(--purple) whiteness(+7%)),
+    color(var(--purple) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--purple) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--purple) lightness(-4%) saturation(-10%))
     );
     border-radius: 5px;
 
@@ -1756,7 +1756,7 @@ Usage (In Ghost editor):
 
 .subscribe-form button:active,
 .subscribe-form button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color(var(--purple) lightness(-9%) saturation(-10%));
 }
 
 .subscribe-form .button-loader,
@@ -2207,7 +2207,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-bookmark-container:hover .kg-bookmark-title {
-    color: var(--blue);
+    color: var(--purple);
 }
 
 .kg-bookmark-description {
@@ -2727,10 +2727,10 @@ Usage (In Ghost editor):
     font-weight: 400;
     text-align: center;
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color(var(--purple) whiteness(+7%)),
+    color(var(--purple) lightness(-7%) saturation(-10%)) 60%,
+    color(var(--purple) lightness(-7%) saturation(-10%)) 90%,
+    color(var(--purple) lightness(-4%) saturation(-10%))
     );
     border-radius: 8px;
 
@@ -2739,7 +2739,7 @@ Usage (In Ghost editor):
 
 .subscribe-overlay button:active,
 .subscribe-overlay button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color(var(--purple) lightness(-9%) saturation(-10%));
 }
 
 .subscribe-overlay .loading .button-loader {
