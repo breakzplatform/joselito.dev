@@ -8,13 +8,8 @@ into the {body} of the default.hbs template --}}
             {{> "site-nav"}}
             <div class="site-header-content">
                 <h1 class="site-title">
-                    {{#if @site.logo}}
-                        <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" />
-                    {{else}}
-                        {{@site.title}}
-                    {{/if}}
+                    <img class="site-logo" src="https://joselito.dev/content/images/2020/01/_----JOSE---_-1.png" alt="{{@site.title}}" />
                 </h1>
-                <h2 class="site-description">{{@site.description}}</h2>
             </div>
         </div>
     </div>
